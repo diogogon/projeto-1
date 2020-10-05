@@ -20,7 +20,7 @@ maior ou menor que a média de gastos da região?
 ## Visuais
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
 #### Arquivo PBIX
-[Teste_PowerBI_HyperCloud](https://github.com/diogogon/Teste-Hypercloud/blob/master/Teste_Hypercloud.pbix)
+[projeto I PBI](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
 
 ## Autor
 *Diogo Gonçalves*
