@@ -1,4 +1,4 @@
-<h3 align="center"> Análise de Gastos de Operadoras de Plano de Saúde </h3>
+<h2 align="center"> Análise de Gastos de Operadoras de Plano de Saúde </h2>
 <h5 align="right"> Projeto I </h5>
 
 #### Objetivo dos diretores (tomadores de decisão):
@@ -18,7 +18,8 @@ Monitorar a evolução dos gastos de seguro saúde.
 maior ou menor que a média de gastos da região?
 
 ## Visuais
-<p align="center"> <img src=""> </p>
+<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
+
 #### Arquivo PBIX
 [projeto I PBI](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
 
