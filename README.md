@@ -17,13 +17,12 @@ Monitorar a evolução dos gastos de seguro saúde.
 10.Se for homem, com mais de 50 anos e da região Sudeste, o gasto é
 maior ou menor que a média de gastos da região?
 
-## Visuais
+#### Dashboard:
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
 
-#### Arquivo PBIX
-[projeto I PBI](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
+[projeto I PBI: Análise de gastos na saúde](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
 
-## Autor
+#### Autor
 *Diogo Gonçalves*
 > E-mail: dio.goncalves90@gmail.com
 
