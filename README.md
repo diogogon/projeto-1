@@ -19,6 +19,7 @@ maior ou menor que a média de gastos da região?
 
 #### Dashboard:
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
+
 O arquivo .pbix do dashboard:
 [projeto I PBI: Análise de gastos na saúde](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
 
