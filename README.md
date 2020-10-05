@@ -18,7 +18,7 @@ Monitorar a evolução dos gastos de seguro saúde.
 maior ou menor que a média de gastos da região?
 
 ## Visuais
-<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
+<p align="center"> <img src=""> </p>
 #### Arquivo PBIX
 [projeto I PBI](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
 
