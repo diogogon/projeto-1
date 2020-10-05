@@ -1,4 +1,4 @@
-<h1 align="center"> Análise de Gastos de Operadoras de Plano de Saúde </h1>
+<h3 align="center"> Análise de Gastos de Operadoras de Plano de Saúde </h3>
 <h5 align="right"> Projeto I </h5>
 
 #### Objetivo dos diretores (tomadores de decisão):
@@ -18,7 +18,7 @@ Monitorar a evolução dos gastos de seguro saúde.
 maior ou menor que a média de gastos da região?
 
 ## Visuais
-<p align="center"> <img src="https://github.com/diogogon/Teste-Hypercloud/blob/master/Modelagem_Snowflake.png"> </p>
+<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
 #### Arquivo PBIX
 [Teste_PowerBI_HyperCloud](https://github.com/diogogon/Teste-Hypercloud/blob/master/Teste_Hypercloud.pbix)
 
