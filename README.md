@@ -1,8 +1,14 @@
 <h2 align="center"> Análise de Gastos de Operadoras de Plano de Saúde </h2>
 <h5 align="right"> Projeto I </h5>
+<h5 align="right"> Representação do laboratório proposto pela DSA </h5>
+<h5 align="right"> Microsoft Power BI para Data Science Versão 2.0 </h5>
 
-#### Objetivo dos diretores (tomadores de decisão):
+#### Objetivo dos gestores (tomadores de decisão):
 Monitorar a evolução dos gastos de seguro saúde.
+
+As Grace Hopper said:
+> I’ve always been more interested
+> in the future than in the past.
 
 #### Requisitos:
 1. Qual o gasto total da operadora?
