@@ -6,9 +6,12 @@
 #### Objetivo dos gestores (tomadores de decisão):
 Monitorar a evolução dos gastos de seguro saúde.
 
-As Grace Hopper said:
+O diretor 
+
 > I’ve always been more interested
 > in the future than in the past.
+
+Após o encontro, a equipe elencou o que precisa pôr no relatório:
 
 First Header | Second Header
 ------------ | -------------
