@@ -42,11 +42,12 @@ O CEO, por fim, diz:
 - [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
 Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada requisito (IMC e gastos) travado às variáveis:
-1. Requisito gastos: a média de gastos total está travada por **gênero** e **região**. Ou seja, esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
+1. Requisito gastos: a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
 2. Requisito IMC: a média de gastos total está travada por **gênero** e **faixa etária**.
-*Os valore travados foram intencionais para análise.*
 
-As opções de filtro tornam possíveis análises por gênero, região e faixa etária.
+*Os valores travados foram intencionais para análise.*
+
+Por fim, as opções de filtro tornam possíveis análises por gênero, região e faixa etária dependendo de cada caso.
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png">
 
