@@ -17,7 +17,7 @@ Durante a reunião, os diretores fizeram diversas perguntas aos presentes (gesto
 - [ ] Idade média dos usuários da operadora;
 - [ ] Gasto médio por região;
 - [ ] Faixa etária com maior gasto com seguro saúde por região;
-- [ ] A relação de filhos com o gasto;
+- [ ] Como filhos influenciam no gasto;
 - [ ] Proporção de crianças por região;
 - [ ] A relação de idade com o IMC;
 - [ ] Que gênero gasta mais.
@@ -33,11 +33,11 @@ O CEO, por fim, diz:
 
 #### Pontos dignos de nota do dashboard:
 
-- [X] A relação de filhos com o gasto;
+- [X] Como filhos influenciam no gasto;
 
-<p align="justify"> Sem nenhuma informação extra informada, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a porcentagem obtida não foi com relação ao número de filhos, e sim uma variação dos gastos para aqueles que têm filhos ou não. Todavia, um filtro poderia ser inserido para comparar os gastos dos "Sem filhos" com uma quantidade específica de filhos, mas a decisão cabe ao tomador de decisão. </p>
+<p align="justify"> É importante entender que os planos de clientes com filhos são diferentes para aqueles que não possuem filhos. Mas quanto? Para uma análise mais geral, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a partir de agora não será analisado quanto ao número específico de filhos, mas sim uma variação dos gastos para aqueles que têm filhos ou não. Vale ressaltar, que um filtro poderia ser inserido para comparar os gastos dos "Sem filhos" com uma quantidade específica de filhos, mas a decisão cabe ao tomador de decisão. </p>
 
-Dito isso, as variáveis a seguir calculam a variação do gasto com filhos pelo gasto das pessoas sem filhos.
+Dito isso, as variáveis podem ser calculadas da seguinte forma (Pais - Sem filhos)/(Sem filhos). Fazemos isso para o valor total e média.
 
 *%Dif **valor** pais/semfilhos = DIVIDE(CALCULATE(**SUM**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Pais"**) - CALCULATE(**SUM**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Sem filhos"**), CALCULATE(**SUM**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Pais"**))*
 
@@ -50,14 +50,14 @@ Dito isso, as variáveis a seguir calculam a variação do gasto com filhos pelo
 
 <p align="justify"> Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada variável (IMC e gastos), travado a alguns filtros de forma intencional: </p>
 
-*Media_gasto_regiao = CALCULATE(**AVERAGE**('Seguro de saúde'[Valor do seguro de saúde]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Região]))*
+*Media_**gasto**_regiao = CALCULATE(**AVERAGE**('Seguro de saúde'[Valor do seguro de saúde]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Região]))*
 
-*Media_IMC_faixa = CALCULATE(**AVERAGE**('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))*
+*Media_**IMC**_faixa = CALCULATE(**AVERAGE**('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))*
 
-1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
-2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**.
+1. Variável: Media_**gasto**_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
+2. Variável: Media_**IMC**_faixa - a média do IMC total está travada por **gênero** e **faixa etária**.
 
-Por fim, a variação que é aplicada aos gráficos:
+Por fim, a variação que é aplicada aos gráficos (calculado da mesma forma do item anterior):
 
 *KPI Media_gasto_regiao = DIVIDE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde])-Medidas[Media_gasto_regiao],[Media_gasto_regiao])*
 
