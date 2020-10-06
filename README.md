@@ -49,10 +49,10 @@ Para demonstrar estas situações hipotéticas foi proposto KPI's interativos, q
 - [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
 - [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
-<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/Text.png"> </p>
+<p align="center"> <img src="">
 
 O arquivo .pbix do dashboard:
-[projeto I PBI: Análise de gastos na saúde](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
+[projeto I PBI: Análise de gastos na saúde]()
 
 #### Bibliografia
 O arquivo original do dataset .csv mais o desafio proposto estão no curso gratuito Microsoft Power BI para Data Science Versão 2.0 oferecido pela DSA. Os arquivos originais são postos de maneira didática e há problemas propositais que simulam a vida real do profissional. Apoie o trabalho.
