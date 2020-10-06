@@ -29,13 +29,18 @@ Além disso, duas situações:
 O CEO, por fim, diz:
 > _ Você, o analista de dados, preciso de um dashboard interativo de única tela onde pudesse visualizar todos nossos requisitos a qualquer momento;
 
-> _ Precisa ser capaz de monitorar e relacionar os dados. Quero poder descobrir os problemas e as oportunidades do nosso banco de dados.
+> _ Precisa ser capaz de monitorar e relacionar os dados. Quero poder descobrir os problemas e as oportunidades a partir desses dados.
 
 #### Dashboard:
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
 
 O arquivo .pbix do dashboard:
 [projeto I PBI: Análise de gastos na saúde](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
+
+#### Bibliografia
+O arquivo original do dataset .csv mais o desafio proposto estão no curso gratuito Microsoft Power BI para Data Science Versão 2.0 oferecido pela DSA. Os arquivos originais são postos de maneira didática e há problemas propositais que simulam a vida real do profissional. Apoie o trabalho.
+
+*OBS: Minha solução já está com todas as modificações que eu julgo correta para a análise dos dados, tanto dos dados como do problema.*
 
 #### Autor
 *Diogo Gonçalves*
