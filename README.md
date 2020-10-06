@@ -33,25 +33,15 @@ O CEO, por fim, diz:
 
 #### Pontos dignos de nota do dashboard:
 
-- [X] Gasto total da operadora;
-- [X] Idade média dos usuários da operadora;
-- [X] Gasto médio por região;
-- [X] Faixa etária com maior gasto com seguro saúde por região;
-
-<p align="justify"> Sem nenhuma informação extra informada, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a porcentagem obtida não foi com relação ao número de filhos, e sim compara a variação dos gastos para aqueles que têm filhos ou não. Um filtro poderia ser inserido para comparar os gastos dos "Sem filhos" com uma quantidade específica de filhos, mas a decisão cabe ao tomador de decisão. </p>
-
 - [X] A relação de filhos com o gasto;
+<p align="justify"> Sem nenhuma informação extra informada, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a porcentagem obtida não foi com relação ao número de filhos, e sim compara a variação dos gastos para aqueles que têm filhos ou não. Um filtro poderia ser inserido para comparar os gastos dos "Sem filhos" com uma quantidade específica de filhos, mas a decisão cabe ao tomador de decisão. </p>
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/Text.png">
 
-- [X] Proporção de crianças por região;
-- [X] A relação de idade com o IMC;
-- [X] Que gênero gasta mais.
-
-Para demonstrar estas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média de cada requisito (IMC e gastos). As opções de filtro tornam possíveis análises por gênero, região e faixa etária.
-
 - [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
 - [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
+
+Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média de cada requisito (IMC e gastos). As opções de filtro tornam possíveis análises por gênero, região e faixa etária.
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png">
 
