@@ -31,15 +31,17 @@ O CEO, por fim, diz:
 
 > _ Precisa ser capaz de monitorar e relacionar os dados. Quero poder descobrir os problemas e as oportunidades a partir desses dados.
 
-#### Dashboard:
+#### Pontos dignos de nota do dashboard:
 
 - [X] Gasto total da operadora;
 - [X] Idade média dos usuários da operadora;
 - [X] Gasto médio por região;
 - [X] Faixa etária com maior gasto com seguro saúde por região;
 
+
 - [X] A relação de filhos com o gasto;
 
+<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/Text.png">
 
 - [X] Proporção de crianças por região;
 - [X] A relação de idade com o IMC;
@@ -51,13 +53,17 @@ Para demonstrar estas situações hipotéticas foi proposto KPI's interativos, q
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png">
 
+O dashboard completo pode ser visto a seguir:
+
+<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/Visual_geral.png">
+
 O arquivo .pbix do dashboard:
 [projeto I PBI: Análise de gastos na saúde](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
 
 #### Bibliografia
 O arquivo original do dataset .csv mais o desafio proposto estão no curso gratuito Microsoft Power BI para Data Science Versão 2.0 oferecido pela DSA. Os arquivos originais são postos de maneira didática e há problemas propositais que simulam a vida real do profissional. Apoie o trabalho.
 
-*OBS: Minha solução já está com todas as modificações que eu julgo correta para a análise dos dados, tanto do dataset como do problema.*
+*OBS: Minha solução já está com todas as modificações que eu julgo correta para a análise dos dados, tanto o dataset como o problema.*
 
 #### Autor
 *Diogo Gonçalves*
