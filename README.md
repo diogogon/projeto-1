@@ -3,14 +3,14 @@
 <h5 align="right"> Representação do laboratório proposto pela DSA </h5>
 <h5 align="right"> Microsoft Power BI para Data Science Versão 2.0 </h5>
 
-*Quinta-feira, 12, 18:00h*
+*Situação hipotética: Quinta-feira, 12, 18:00h*
 
 *Reunião multidisciplinar*|
 ------------------------- | 
 *Assunto*                 |
-*O objetivo da reunião é encontrar alternativas para monitorar a evolução dos gastos já que estes aumentaram de forma considerável. Ideias, anotações, opniões, críticas serão postas para análise.*
+*Encontrar alternativas para monitorar a evolução dos gastos já que estes aumentaram de forma considerável. Ideias, anotações, opniões, críticas serão postas para análise.*
 
-Os diretores fizeram diversas perguntas aos presentes (gestores, TI e BI), e após o encontro, a equipe elencou o que precisa pôr no relatório:
+Durante a reunião, os diretores fizeram diversas perguntas aos presentes (gestores e profissionais de TI e BI), e após o encontro, a equipe elencou o que precisa de fato pôr no relatório:
 
 #### Requisitos:
 - [ ] Gasto total da operadora;
