@@ -3,7 +3,6 @@
 <h5 align="right"> Representação do laboratório proposto pela DSA </h5>
 <h5 align="right"> Microsoft Power BI para Data Science Versão 2.0 </h5>
 
-#### Reunião
 *Quinta-feira, 12, 18:00h*
 
 *Reunião multidisciplinar*|
@@ -23,11 +22,11 @@ Os diretores fizeram diversas perguntas aos presentes (gestores, TI e BI), e ap�
 - [ ] A relação de idade com o IMC;
 - [ ] Que gênero gasta mais.
 
-Duas situações:
+Além disso, duas situações:
 - [ ] Se o usuário for mulher, o imc é acima ou abaixo da média?
 - [ ] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
-O diretor, por fim, diz:
+O CEO, por fim, diz:
 > _ Você, o analista de dados, preciso de um dashboard interativo de única tela onde pudesse visualizar todos nossos requisitos a qualquer momento;
 
 > _ Precisa ser capaz de monitorar e relacionar os dados. Quero poder descobrir os problemas e as oportunidades do nosso banco de dados.
