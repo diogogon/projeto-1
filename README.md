@@ -46,10 +46,10 @@ O CEO, por fim, diz:
 
 Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média de cada requisito (IMC e gastos). As opções de filtro tornam possíveis análises por gênero, região e faixa etária.
 
-<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
+<p align="center"> <img src=""> </p>
 
 O arquivo .pbix do dashboard:
-[projeto I PBI: Análise de gastos na saúde](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
+[projeto I PBI: Análise de gastos na saúde]()
 
 #### Bibliografia
 O arquivo original do dataset .csv mais o desafio proposto estão no curso gratuito Microsoft Power BI para Data Science Versão 2.0 oferecido pela DSA. Os arquivos originais são postos de maneira didática e há problemas propositais que simulam a vida real do profissional. Apoie o trabalho.
