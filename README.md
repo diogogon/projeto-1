@@ -51,7 +51,7 @@ Por fim, as opções de filtro tornam possíveis análises por gênero, região 
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png">
 
-Para os outros requisitos, não há qualquer dificuldade na construção dos gráficos. Houve apenas um cuidado a mais em *como* construir os gráfico e organizar no dashboard. Marcadores, cores, escolha apropriada dos gráficos, saturação, o modo de visualização e interação, e filtros. Uma história ainda pode ser contada por dashboard sem relação com um período contínuo de data? Claro que sim, e é dessa forma que é apresentado aos diretores.
+<p align="justify"> Para os outros requisitos, não há qualquer dificuldade na construção dos gráficos. Houve apenas um cuidado a mais em *como* construir os gráfico e organizar no dashboard. Marcadores, cores, escolha apropriada dos gráficos, saturação, o modo de visualização e interação, e filtros. Uma história ainda pode ser contada por dashboard sem relação com um período contínuo de data? Claro que sim, e é dessa forma que é apresentado aos diretores. </p>
 
 O dashboard completo pode ser visto a seguir:
 
