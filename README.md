@@ -37,16 +37,19 @@ O CEO, por fim, diz:
 - [X] Idade média dos usuários da operadora;
 - [X] Gasto médio por região;
 - [X] Faixa etária com maior gasto com seguro saúde por região;
+
 - [X] A relação de filhos com o gasto;
+
+
 - [X] Proporção de crianças por região;
 - [X] A relação de idade com o IMC;
 - [X] Que gênero gasta mais.
+
+Para demonstrar estas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média de cada requisito (IMC e gastos). As opções de filtro tornam possíveis análises por gênero, região e faixa etária.
 - [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
 - [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
-Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média de cada requisito (IMC e gastos). As opções de filtro tornam possíveis análises por gênero, região e faixa etária.
-
-<p align="center"> <img src=""> </p>
+<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/Text.png"> </p>
 
 O arquivo .pbix do dashboard:
 [projeto I PBI: Análise de gastos na saúde](https://github.com/diogogon/projeto-1/blob/main/projeto-1.pbix)
