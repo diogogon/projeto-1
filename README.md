@@ -49,7 +49,7 @@ Para demonstrar estas situações hipotéticas foi proposto KPI's interativos, q
 - [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
 - [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
-<p align="center"> <img src="">
+<p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png">
 
 O arquivo .pbix do dashboard:
 [projeto I PBI: Análise de gastos na saúde]()
