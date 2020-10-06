@@ -23,7 +23,7 @@ Durante a reunião, os diretores fizeram diversas perguntas aos presentes (gesto
 - [ ] Que gênero gasta mais.
 
 Além disso, duas situações:
-- [ ] Se o usuário for mulher, o imc é acima ou abaixo da média?
+- [ ] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
 - [ ] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
 O CEO, por fim, diz:
@@ -32,6 +32,20 @@ O CEO, por fim, diz:
 > _ Precisa ser capaz de monitorar e relacionar os dados. Quero poder descobrir os problemas e as oportunidades a partir desses dados.
 
 #### Dashboard:
+
+- [X] Gasto total da operadora;
+- [X] Idade média dos usuários da operadora;
+- [X] Gasto médio por região;
+- [X] Faixa etária com maior gasto com seguro saúde por região;
+- [X] A relação de filhos com o gasto;
+- [X] Proporção de crianças por região;
+- [X] A relação de idade com o IMC;
+- [X] Que gênero gasta mais.
+- [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
+- [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
+
+Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média de cada requisito (IMC e gastos). As opções de filtro tornam possíveis análises por gênero, região e faixa etária.
+
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
 
 O arquivo .pbix do dashboard:
@@ -40,7 +54,7 @@ O arquivo .pbix do dashboard:
 #### Bibliografia
 O arquivo original do dataset .csv mais o desafio proposto estão no curso gratuito Microsoft Power BI para Data Science Versão 2.0 oferecido pela DSA. Os arquivos originais são postos de maneira didática e há problemas propositais que simulam a vida real do profissional. Apoie o trabalho.
 
-*OBS: Minha solução já está com todas as modificações que eu julgo correta para a análise dos dados, tanto dos dados como do problema.*
+*OBS: Minha solução já está com todas as modificações que eu julgo correta para a análise dos dados, tanto do dataset como do problema.*
 
 #### Autor
 *Diogo Gonçalves*
