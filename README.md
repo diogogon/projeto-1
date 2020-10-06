@@ -34,20 +34,28 @@ O CEO, por fim, diz:
 #### Pontos dignos de nota do dashboard:
 
 - [X] A relação de filhos com o gasto;
-<p align="justify"> Sem nenhuma informação extra informada, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a porcentagem obtida não foi com relação ao número de filhos, e sim compara a variação dos gastos para aqueles que têm filhos ou não. Um filtro poderia ser inserido para comparar os gastos dos "Sem filhos" com uma quantidade específica de filhos, mas a decisão cabe ao tomador de decisão. </p>
+
+<p align="justify"> Sem nenhuma informação extra informada, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a porcentagem obtida não foi com relação ao número de filhos, e sim uma variação dos gastos para aqueles que têm filhos ou não. Todavia, um filtro poderia ser inserido para comparar os gastos dos "Sem filhos" com uma quantidade específica de filhos, mas a decisão cabe ao tomador de decisão. </p>
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/Text.png">
 
 - [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
 - [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
-Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada requisito (IMC e gastos) travado às variáveis:
-1. Requisito gastos: a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
-2. Requisito IMC: a média de gastos total está travada por **gênero** e **faixa etária**.
+Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada variável (IMC e gastos), travado a alguns filtros de forma intencional:
 
-*Os valores travados foram intencionais para análise.*
+Media_gasto_regiao = CALCULATE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Região]))
+Media_IMC_faixa = CALCULATE(AVERAGE('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))
 
-Por fim, as opções de filtro tornam possíveis análises por gênero, região e faixa etária dependendo de cada caso.
+1. Variável: gastos - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
+2. Variável: IMC - a média de gastos total está travada por **gênero** e **faixa etária**.
+
+A variação que é aplicada aos gráficos:
+
+KPI Media_gasto_regiao = DIVIDE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde])-Medidas[Media_gasto_regiao],[Media_gasto_regiao])
+KPI Media_IMC_faixa = DIVIDE(AVERAGE('Seguro de saúde'[IMC])-Medidas[Media_IMC_faixa],[Media_IMC_faixa])
+
+Vale lembrar que as opções de filtro ainda tornam possíveis análises por gênero, região e faixa etária; claro, dependendo de cada caso.
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png">
 
