@@ -38,7 +38,7 @@ O CEO, por fim, diz:
 - [X] Gasto médio por região;
 - [X] Faixa etária com maior gasto com seguro saúde por região;
 
-
+Sem nenhuma informação extra informada, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a porcentagem obtida não foi com relação ao número de filhos, e sim compara a variação dos gastos para aqueles que têm filhos ou não.
 - [X] A relação de filhos com o gasto;
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/Text.png">
