@@ -51,7 +51,7 @@ Media_IMC_faixa = CALCULATE(AVERAGE('Seguro de saúde'[IMC]),ALL('Seguro de saú
 1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
 2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**.
 
-A variação que é aplicada aos gráficos:
+Por fim, a variação que é aplicada aos gráficos:
 
 KPI Media_gasto_regiao = DIVIDE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde])-Medidas[Media_gasto_regiao],[Media_gasto_regiao])
 
