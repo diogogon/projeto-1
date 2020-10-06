@@ -42,14 +42,14 @@ O CEO, por fim, diz:
 - [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
 - [X] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
 
-Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada variável (IMC e gastos), travado a alguns filtros de forma intencional:
+<p align="justify"> Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada variável (IMC e gastos), travado a alguns filtros de forma intencional: </p>
 
 *Media_gasto_regiao = CALCULATE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Região]))*
 
 *Media_IMC_faixa = CALCULATE(AVERAGE('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))*
 
-1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
-2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**.
+<p align="justify"> 1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação. </p>
+<p align="justify"> 2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**. </p>
 
 Por fim, a variação que é aplicada aos gráficos:
 
