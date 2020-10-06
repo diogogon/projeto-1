@@ -45,14 +45,16 @@ O CEO, por fim, diz:
 Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada variável (IMC e gastos), travado a alguns filtros de forma intencional:
 
 Media_gasto_regiao = CALCULATE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Região]))
+
 Media_IMC_faixa = CALCULATE(AVERAGE('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))
 
-1. Variável: gastos - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
-2. Variável: IMC - a média de gastos total está travada por **gênero** e **faixa etária**.
+1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
+2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**.
 
 A variação que é aplicada aos gráficos:
 
 KPI Media_gasto_regiao = DIVIDE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde])-Medidas[Media_gasto_regiao],[Media_gasto_regiao])
+
 KPI Media_IMC_faixa = DIVIDE(AVERAGE('Seguro de saúde'[IMC])-Medidas[Media_IMC_faixa],[Media_IMC_faixa])
 
 Vale lembrar que as opções de filtro ainda tornam possíveis análises por gênero, região e faixa etária; claro, dependendo de cada caso.
