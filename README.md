@@ -3,33 +3,34 @@
 <h5 align="right"> Representação do laboratório proposto pela DSA </h5>
 <h5 align="right"> Microsoft Power BI para Data Science Versão 2.0 </h5>
 
-#### Objetivo dos gestores (tomadores de decisão):
-Monitorar a evolução dos gastos de seguro saúde.
+#### Reunião
+*Quinta-feira, 12, 18:00h*
 
-O diretor 
+*Reunião multidisciplinar*|
+------------------------- | 
+*Assunto*                 |
+*O objetivo da reunião é encontrar alternativas para monitorar a evolução dos gastos já que estes aumentaram de forma considerável. Ideias, anotações, opniões, críticas serão postas para análise.*
 
-> I’ve always been more interested
-> in the future than in the past.
-
-Após o encontro, a equipe elencou o que precisa pôr no relatório:
-
-First Header | Second Header
------------- | -------------
-Content cell 1 | Content cell 2
-Content column 1 | Content column 2
+Os diretores fizeram diversas perguntas aos presentes (gestores, TI e BI), e após o encontro, a equipe elencou o que precisa pôr no relatório:
 
 #### Requisitos:
-1. Qual o gasto total da operadora?
-2. Qual a idade média dos usuários da operadora?
-3. Qual o gasto médio por região?
-4. Qual faixa etária possui maior gasto com seguro saúde por região?
-5. Crianças tem gasto maior que adultos?
-6. Qual a proporção de crianças por região?
-7. O aumento da idade influencia no imc?
-8. Quem tem maior gasto, homens ou mulheres?
-9. Se o usuário for mulher, o imc é acima ou abaixo da média?
-10.Se for homem, com mais de 50 anos e da região Sudeste, o gasto é
-maior ou menor que a média de gastos da região?
+- [ ] Gasto total da operadora;
+- [ ] Idade média dos usuários da operadora;
+- [ ] Gasto médio por região;
+- [ ] Faixa etária com maior gasto com seguro saúde por região;
+- [ ] A relação de filhos com o gasto;
+- [ ] Proporção de crianças por região;
+- [ ] A relação de idade com o IMC;
+- [ ] Que gênero gasta mais.
+
+Duas situações:
+- [ ] Se o usuário for mulher, o imc é acima ou abaixo da média?
+- [ ] Se for homem, na faixa de 20 a 59 anos e da região Sudeste, o gasto é maior ou menor que a média de gastos da região?
+
+O diretor, por fim, diz:
+> _ Você, o analista de dados, preciso de um dashboard interativo de única tela onde pudesse visualizar todos nossos requisitos a qualquer momento;
+
+> _ Precisa ser capaz de monitorar e relacionar os dados. Quero poder descobrir os problemas e as oportunidades do nosso banco de dados.
 
 #### Dashboard:
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/visual_geral.png"> </p>
