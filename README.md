@@ -10,9 +10,9 @@
 *Assunto*                 |
 *Encontrar alternativas para monitorar a evolução dos gastos já que estes aumentaram de forma considerável. Ideias, anotações, opniões, críticas serão postas para análise.*
 
-Durante a reunião, os diretores fizeram diversas perguntas aos presentes (gestores e profissionais de TI e BI), e após o encontro, a equipe elencou o que precisa de fato pôr no relatório:
+Durante a reunião, os diretores fizeram diversas perguntas aos presentes (gestores e profissionais de TI e BI), e após o encontro, a equipe elencou o que precisa de fato ser considerado para monitorar os gastos da empresa:
 
-#### Requisitos:
+#### Fatores/Requisitos:
 - [ ] Gasto total da operadora;
 - [ ] Idade média dos usuários da operadora;
 - [ ] Gasto médio por região;
