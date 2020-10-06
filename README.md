@@ -37,6 +37,12 @@ O CEO, por fim, diz:
 
 <p align="justify"> Sem nenhuma informação extra informada, pude classificá-los para os que possuem filhos de "Pais" e sem filhos de "Sem filhos". Então, a porcentagem obtida não foi com relação ao número de filhos, e sim uma variação dos gastos para aqueles que têm filhos ou não. Todavia, um filtro poderia ser inserido para comparar os gastos dos "Sem filhos" com uma quantidade específica de filhos, mas a decisão cabe ao tomador de decisão. </p>
 
+Dito isso, as variáveis a seguir calculam a variação do gasto com filhos pelo gasto das pessoas sem filhos.
+
+*%Dif **valor** pais/semfilhos = DIVIDE(CALCULATE(**SUM**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Pais"**) - CALCULATE(**SUM**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Sem filhos"**), CALCULATE(**SUM**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Pais"**))*
+
+*%Dif **media** pais/semfilhos = DIVIDE(CALCULATE(**AVERAGE**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Pais"**) - CALCULATE(**AVERAGE**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Sem filhos"**), CALCULATE(**AVERAGE**('Seguro de saúde'[Valor do seguro de saúde]), 'Seguro de saúde'[C/S filhos] = **"Pais"**))*
+    
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/Text.png">
 
 - [X] Se o usuário for mulher, o imc é acima ou abaixo da média? Compare pela faixa etária.
@@ -44,9 +50,9 @@ O CEO, por fim, diz:
 
 <p align="justify"> Para demonstrar essas situações hipotéticas foi proposto KPI's interativos, que tomam como ponto de partida a média total de cada variável (IMC e gastos), travado a alguns filtros de forma intencional: </p>
 
-*Media_gasto_regiao = CALCULATE(AVERAGE('Seguro de saúde'[Valor do seguro de saúde]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Região]))*
+*Media_gasto_regiao = CALCULATE(**AVERAGE**('Seguro de saúde'[Valor do seguro de saúde]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Região]))*
 
-*Media_IMC_faixa = CALCULATE(AVERAGE('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))*
+*Media_IMC_faixa = CALCULATE(**AVERAGE**('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))*
 
 1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
 2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**.
@@ -61,7 +67,7 @@ Vale lembrar que as opções de filtro ainda tornam possíveis análises por gê
 
 <p align="center"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_IMC.png"> <img src="https://github.com/diogogon/projeto-1/blob/main/KPI_Gasto.png">
 
-<p align="justify"> Para os outros requisitos, não há qualquer dificuldade na construção dos gráficos. Houve apenas um cuidado a mais em *como* construir os gráfico e organizar no dashboard. Marcadores, cores, escolha apropriada dos gráficos, saturação, o modo de visualização e interação, e filtros. Uma história ainda pode ser contada por dashboard sem relação com um período contínuo de data? Claro que sim, e é dessa forma que é apresentado aos diretores. </p>
+<p align="justify"> Para os outros requisitos, não há qualquer dificuldade na construção dos gráficos. Houve apenas um cuidado a mais em 'como' construir os gráfico e organizar no dashboard. Marcadores, cores, escolha apropriada dos gráficos, saturação, o modo de visualização e interação, e filtros. Uma história ainda pode ser contada por dashboard sem relação com um período contínuo de data? Claro que sim, e é dessa forma que é apresentado aos diretores. </p>
 
 O dashboard completo pode ser visto a seguir:
 
