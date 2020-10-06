@@ -48,8 +48,8 @@ O CEO, por fim, diz:
 
 *Media_IMC_faixa = CALCULATE(AVERAGE('Seguro de saúde'[IMC]),ALL('Seguro de saúde'[Sexo]),ALL('Seguro de saúde'[Faixa de idades]))*
 
-<p align="justify"> 1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação. </p>
-<p align="justify"> 2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**. </p>
+1. Variável: Media_gasto_regiao - a média de gastos total está travada por **gênero** e **região**. O que significa que esses dois filtros não alteram a média de gastos total. Outro filtro como o de faixa etária, por exemplo, já altera o valor de comparação.
+2. Variável: Media_IMC_faixa - a média do IMC total está travada por **gênero** e **faixa etária**.
 
 Por fim, a variação que é aplicada aos gráficos:
 
